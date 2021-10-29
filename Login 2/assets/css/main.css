@@ -1,0 +1,146 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+
+/* .wrapper {
+  padding: 20px;
+  background-color: rgb(226, 226, 226);
+}
+.login {
+  background-color: white;
+  border-radius: 2rem;
+} */
+
+.btn {
+  flex-basis: 48%;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn i {
+  padding: 5px;
+}
+.btn--white {
+  border: 1px solid rgb(180, 180, 180);
+  background-color: white;
+  color: black;
+}
+
+.btn--blue {
+  background-color: #527bcb;
+  color: white;
+}
+.btn--orange {
+  margin-top: 10px;
+  background-color: #ff725e;
+  color: white;
+  width: 100%;
+}
+
+.login {
+  max-height: 100vh;
+  overflow: hidden;
+}
+.login__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  flex-basis: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+.left img {
+  display: block;
+  width: 100%;
+}
+.right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right__content {
+}
+.title {
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-weight: 700;
+}
+.title p {
+  color: gray;
+  font-weight: 300;
+}
+.title p a {
+  color: #ff725e;
+  font-weight: 600;
+}
+.right__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.or {
+  padding: 0 10px;
+}
+.right__or {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.divider {
+  height: 1px;
+  width: 40%;
+  background: gray;
+}
+.righ__form {
+}
+.input {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+.input:hover {
+  border: 2px solid #ff725e;
+}
+
+.input input {
+  height: 100%;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.input i {
+  padding: 10px;
+}
+.checkbox {
+  margin: 10px 0;
+}
+
+/* #527BCB blue */
+/* #FF725E orange */
+/* font-family: 'Poppins', sans-serif; */
